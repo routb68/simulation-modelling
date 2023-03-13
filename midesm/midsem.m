@@ -36,6 +36,7 @@ for i = 1:7
 end
 
 %%
+subplot(2,4,8)
 d = 1:7;
 plot (d,train_er,'b-o',d,test_er,'r-o','LineWidth',2);
 legend('train-er','test_er')
